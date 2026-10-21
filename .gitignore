@@ -1,0 +1,22 @@
+# Environments and caches
+.venv/
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Downloaded data and generated training artifacts
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
